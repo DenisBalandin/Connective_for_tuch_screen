@@ -1,0 +1,34 @@
+/* .flipper, .flip-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 200px;
+    margin-bottom: 1%;
+}
+
+.front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d79c4;
+    color: white;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC107;
+    color: white;
+}
+
+.back div, .front div {
+    width: 100%;
+    height: 100%;
+}
+
+.back .card_content {
+    background-blend-mode: multiply;
+    background-color: rgba(30, 121, 196, 0.43);
+} */
