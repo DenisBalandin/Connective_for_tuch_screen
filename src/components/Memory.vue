@@ -321,18 +321,18 @@
 
 <style scoped>
 .promo {
-  position: absolute;
+  position: fixed;
+  display: flex;
   top: 0;
   left: 0;
   z-index: 100;
   background-color: rgba(14, 58, 108, 0.90);
    width: 100%;
   height: 100%; 
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: flex-start;
   transition: background-color 1s;
-  overflow: hidden;
 }
 
 .promo.game_complete {
