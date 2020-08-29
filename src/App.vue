@@ -106,7 +106,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 32%;
+    width: 265px!important;
     height: 200px;
     margin-bottom: 1%;
 }
@@ -117,6 +117,8 @@ p {
     justify-content: center;
     background-color: #4abeb7;
     color: white;
+        width: 100%!important;
+    height: 200px;
 }
 
 .back {
@@ -125,6 +127,8 @@ p {
     justify-content: center;
     background-color: white;
     color: white;
+        width: 100%!important;
+    height: 200px;
 }
 
 .back div, .front div {
