@@ -385,7 +385,7 @@
 }
 
 .game {
-    width: 60%;
+    width: 54%;
     padding: 0 2%;
     box-sizing: border-box;
     display: flex;
