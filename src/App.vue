@@ -106,29 +106,32 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 265px!important;
-    height: 200px;
+    width: 235px!important;
+    height: 180px!important;
     margin-bottom: 1%;
 }
 
 .front {
+  padding: 2px 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #4abeb7;
     color: white;
-        width: 100%!important;
-    height: 200px;
+    width: 100%!important;
+    height: 100%!important;
 }
 
 .back {
+    padding: 2px 0 0 0;
+
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     color: white;
-        width: 100%!important;
-    height: 200px;
+    width: 100%!important;
+    height: 100%!important;
 }
 
 .back div, .front div {
