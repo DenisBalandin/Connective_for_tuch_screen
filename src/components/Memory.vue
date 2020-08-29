@@ -7,7 +7,7 @@
         </div>
         <div @click='startTimer()' class='game' :class="{ attract: gameActive}">
             <template v-for='o in options'>
-              <vue-flip  :active-click='true' :bindWithMe='o.active' width="350px" height="250px" :class="{no_flip: checkIfFlippable(o), complete: o.complete, hover: o.hover}">
+              <vue-flip  :active-click='true' :bindWithMe='o.active' :class="{no_flip: checkIfFlippable(o), complete: o.complete, hover: o.hover}">
                   <div slot="front" >
                       <div @click='flip(o)'></div>
                   </div>
